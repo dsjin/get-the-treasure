@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Demo | DSJIN</title>
+    <style>
+      #main{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(#7BADD6, #758ECC)
+      }
+      ._flex{
+        display: flex
+      }
+      ._flex._center_horizontal{
+        justify-content: center
+      }
+      ._flex._center_vertical{
+        align-items: center
+      }
+      ._flex._column{
+        flex-direction: column
+      }
+      canvas{
+        margin-top: 0%
+      }
+      #credit{
+        position: absolute;
+        right:0;
+        bottom:0;
+        margin:10px
+      }
+    </style>
+</head>
+<body id="main" class="_flex _column _center_horizontal _center_vertical">
+  <h1>Get the treasure!</h1>
+  <p id="credit">All material and original code from <a href="https://academy.zenva.com/">Zenva Academy</a> and Modify by DS</p>
+  <script src="js/phaser.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
